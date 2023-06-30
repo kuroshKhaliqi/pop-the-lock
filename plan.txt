@@ -1,0 +1,9 @@
+ 1. Use "transform: rotate()" at  css
+ 2. Rotate the ball by a random degree ONCE
+ 2.5 Rotate the bar -200deg from the ball
+ 3. Rotate the bar  by 1 degree every 1/10 of a second
+ 4. When user click check if:
+                the degree of the ball is the same as the degreeof the bar
+
+5. If the bar passes the ball   you loose
+6. Handle points                         

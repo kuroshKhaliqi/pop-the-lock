@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pop-The-Lock</title>
+  </head>
+  <body>
+    <div class="game" id="game">
+      <div class="lock-head-bg">
+        <div class="lock-head-inner-bg"></div>
+      </div>
+      <div class="lock">
+        <div class="lock-bg">
+          <div class="lock-inner-bg"></div>
+        </div>
+        <div id="ball-holder" class="ball-holder">
+          <div id="ball" class="ball"></div>
+        </div>
+        <div id="bar-holder" class="bar-holder">
+          <div id="bar" class="bar"></div>
+        </div>
+      </div>
+    </div>
+    <div id="pop-up-bg" class="pop-up-bg d-none">
+      <div class="pop-up-content">
+        <h1 id="pop-up-message">You Won!</h1>
+        <button class="close-btn" onclick="closePopUp()">Close</button>
+      </div>
+    </div>
+    <script src="scrtipt.js"></script>
+  </body>
+</html>
